@@ -1,0 +1,27 @@
+header {
+  position: fixed;
+  display: flex;
+  height: 55px;
+  width: 1024px;
+  background: white;
+  justify-content: space-around;
+  align-items: center;
+
+  nav ul li {
+    list-style-type: none;
+    background: #006fff;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 11px;
+    margin-bottom: 45px;
+    cursor: pointer;
+  }
+}
+
+.top {
+  color: black;
+  font-size: 16px;
+}
